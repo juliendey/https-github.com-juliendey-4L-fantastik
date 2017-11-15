@@ -1,0 +1,578 @@
+body{								/*Style général*/
+	margin-top: 50px;
+	background-size: 1600px;
+	background-image: url('http://s1.dmcdn.net/WXypp.jpg');
+	background-attachment:fixed;
+	color: black;
+	}
+
+@media screen and (max-width: 625px)
+	{
+	/* propriétés pour mobile */
+	}
+@media screen and (max-width: 976px)
+	{
+	/* propriétés pour tablette */
+	}
+
+
+h1 {								/*Style "4L Trophy" et "1209:Les 4L Fantastiques"*/
+	color:white;
+	font-size: 80px;
+	font-family: 'Merienda One', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	text-shadow: #000000 4px 4px, #000000 -4px 4px, #000000 -4px -4px, #000000 4px -4px;
+	}
+
+h2  {								/*Style "Site Officiel"*/
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 350px;
+	border: 2px black solid;
+	width: 300px;
+	margin-left: 500px;
+	padding-top:5px;
+	margin-top: 40px;
+	padding-bottom:5px;
+	}
+
+h3 {								/*Style des titres de sections*/
+	margin:15px;
+	padding: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 40px;
+	}
+
+h5 {								/*Style Gros Titres page Contact*/
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 135px;
+	border: 2px black solid;
+	width: 300px;
+	margin-left: 500px;
+	padding-top:5px;
+	margin-top: 40px;
+	padding-bottom:5px;
+	}
+
+h6 {								/*Style "N'hésitez pas à nous contacter* & Titres section Contacts*/
+	color:white;
+	font-size: 30px;
+	font-family: 'Merienda One', sans-serif;
+	text-align: center;
+	text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+	}
+
+h4 {								/*Style encadré footer*/
+	color:white;
+	font-size: 20px;
+	border:1px grey solid;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	font-family: 'Roboto', sans-serif;	
+	}	
+
+p  {								/*Style Général Paragraphes*/
+	font-family: 'Raleway', sans-serif;
+	padding: 3px;
+	margin:15px;
+	font-size: 20px;
+	margin-right: 150px;
+	text-align: justify;
+	} 
+
+
+.navbar {							/*Style Navbar*/
+    overflow: hidden;
+    background-color: #E5C49B;
+    position: fixed;
+    margin-top: 5px; 
+    top: 0;
+    width: 100%; 
+    z-index: 3;
+    margin-bottom: -80px;
+    border:3px black solid;
+    border-radius: 50px;
+    }
+
+.navbar a {							/*Style Liens Navbar*/
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding:45px;
+    text-decoration: none;
+    z-index: 4;
+    font-size: 20px;
+    margin-bottom: -80px;
+    padding-top:10px;
+    line-height: 30px
+	}
+
+.navbar a:hover {					/*Style Liens Navbar au survol*/
+	text-decoration: underline overline;
+	font-weight: bold;
+	}
+
+.bouton1 a:hover {					/*Style Bouton Accueil au survol*/
+	background:#C19578;
+	}
+
+.bouton2 a{							/*Style Bouton 4L Trophy*/
+	border-left: 1.5px black solid;
+	}
+
+.bouton2 a:hover {					/*Style Bouton 4L Trophy au survol*/
+	background:#C19578;
+	}
+
+.bouton3 a{							/*Style Bouton Les 4L Fantastiques*/
+	border-left: 1.5px black solid;
+	}
+
+.bouton3 a:hover {					/*Style Bouton les 4L Fantastiques au survol*/
+	background:#C19578;
+	}
+
+.bouton4 a{							/*Style Bouton Nous Soutenir*/
+	border-left: 1.5px black solid;
+	}
+
+.bouton4 a:hover {					/*Style Bouton Nous Soutenir au survol*/
+	background:#C19578;
+	}
+
+.bouton5 a{							/*Style Bouton L'Equipe*/
+	border-left: 1.5px black solid;
+	}
+
+.bouton5 a:hover {					/*Style Bouton L'Equipe au survol*/
+	background:#C19578;
+	}
+
+.bouton6 a{							/*Style Bouton Contact*/
+	border-left: 1.5px black solid;
+	}
+
+.bouton6 a:hover {					/*Style Bouton Contact au survol*/
+	background:#C19578;
+	}
+
+.bouton7 a{							/*Style Bouton "Faire un Don"*/
+	display:block;
+	width:200px;
+	line-height:40px;
+	text-align:left;
+	vertical-align:middle;
+	background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
+	color:#E5C49B;
+	text-decoration:none;
+	font-size: 15px;
+	padding-left: 21px;
+	margin-left: 11px;
+	font-family: 'Merienda', sans-serif;
+	padding-top: 5px
+	}
+
+.bouton7 a:hover {					/*Style Bouton "Faire un Don" au survol*/
+	background:url(http://css.mammouthland.net/images/boutonnoir2.png) no-repeat;
+	color:white;
+	}
+
+
+#RS {								/*Style SideBar Réseaux*/
+	font-family: 'Raleway', sans-serif;
+	}
+
+.FB {								/*Style Side Bouton FB*/
+	position: fixed;
+	margin-left: 90.2%;
+	margin-top: 300px;
+	background-color: #4267b2;
+	z-index: 4;
+	border:1px white solid;
+	padding: 3px;
+	font-size: 20px;
+	padding-right: 13.5px;
+	}
+
+.FB a {								/*Style Side Bouton FB lien*/
+	color: white;
+	}
+
+.FB a:hover {						/*Style Side Bouton FB lien au survol*/
+	font-weight: bold;
+	}
+
+.Twitter {							/*Style Side Bouton Twitter*/
+	position: fixed;
+	margin-left: 90.2%;
+	margin-top: 340px;
+	background-color: #1EA1F3;
+	z-index: 4;
+	border:1px white solid;
+	padding: 3px;
+	font-size: 20px;
+	padding-right: 33.5px;
+	}
+
+.Twitter a {						/*Style Side Bouton Twitter lien*/
+	color: white;
+	}
+
+.Twitter a:hover {					/*Style Side Bouton Twitter lien au survol*/
+	font-weight: bold
+	}
+
+.Snapchat {							/*Style Side Bouton Snapchat*/
+	position: fixed;
+	margin-left: 90.2%;
+	margin-top: 380px;
+	background-color: #FFFC00;
+	z-index: 4;
+	border:1px white solid;
+	padding: 3px;
+	font-size: 20px;
+	padding-right: 9px;
+	text-shadow: black 1px 1px, #FFF2EE -1px 1px, #FFF2EE -1px -1px, #FFF2EE 1px -1px;
+	}
+
+.Snapchat a {						/*Style Side Bouton Snapchat lien*/
+	color:white;
+	}
+
+.Snapchat a:hover {					/*Style Side Bouton Snapchat lien au survol*/
+	font-weight: bold
+	}
+
+.Instagram {						/*Style Side Bouton Instagram*/
+	position: fixed;
+	margin-left: 90.2%;
+	margin-top: 420px;
+	background: url(https://i.imgur.com/iVnHDiI.jpg);
+	z-index: 4;
+	border:1px white solid;
+	padding: 3px;
+	font-size: 20px;
+	padding-right: 5px;
+	}
+
+.Instagram a {						/*Style Side Bouton Instagram lien*/
+	color: white
+	}
+
+.Instagram a:hover {				/*Style Side Bouton Instagram lien au survol*/
+	font-weight: bold
+	}
+
+.Youtube {							/*Style Side Bouton YouTube*/
+	position: fixed;
+	margin-left: 90.2%;
+	margin-top: 460px;
+	background-color: #FF0000;
+	z-index: 4;
+	border:1px white solid;
+	padding: 3px;
+	font-size: 20px;
+	padding-right: 16px;
+	}
+
+.Youtube a{							/*Style Side Bouton YouTube lien*/
+	color: white
+	}
+
+.Youtube a:hover {					/*Style Side Bouton Youtube lien au survol*/
+	font-weight: bold
+	}
+
+
+
+#cadre1 {							/*Style Cadre Flouté 4L Trophy*/
+	color:white; 
+	border:2px black solid ;
+	margin:5px ;
+	padding:5px ;
+	box-shadow: 5px 5px 8px black ;
+	position:relative;
+	padding-left: 115px;
+	height: 1150px;
+	}
+
+#cadre1:before {					/*Style Before Cadre Flouté 4L Trophy*/
+	content: '';
+    background: url('http://s1.dmcdn.net/WXypp.jpg') fixed 0 0;
+    background-size: 1600px;
+    -webkit-filter: blur(20px)
+           -moz-filter: blur(20px);
+            -ms-filter: blur(20px);
+             -o-filter: blur(20px);
+                filter: blur(20px);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+	}
+
+
+#parcours {							/*Style Parcours Interactif*/
+	margin-left: 200px;
+	margin-top: 10px;
+	}
+
+#corps {							/*Style Cadre Sépia 4L Fantastiques*/
+    color: black;
+    text-shadow: #FFF2EE 0.5px 0.5px, #FFF2EE -0.5px 0.5px, #FFF2EE -0.5px -0.5px, #FFF2EE 0.5px -0.5px;
+    margin-left:5px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    border: 2px white solid;
+    padding-left: 115px;
+    position: relative;
+	}
+
+#corps:before {						/*Style Before Cadre Sépia 4L Fantastiques*/
+    content: '';
+    background: url('http://s1.dmcdn.net/WXypp.jpg') fixed 0 0;
+    background-size: 1600px;
+    -webkit-filter: sepia(100%) blur(3px)
+           -moz-filter: sepia;
+            -ms-filter: sepia;
+             -o-filter: sepia;
+                filter: sepia(100%) blur(3px) ;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+	}
+
+#cadre2 {							/*Style Cadre Transparent Nous Soutenir*/
+	border:3px steelblue solid	 ;
+	margin:5px ;
+	padding:5px ;
+	box-shadow: 5px 5px 8px steelblue ;
+	color:steelblue; 
+	margin-bottom: 130px;
+	margin-top: 80px;
+	padding-left: 115px;
+	position: relative;
+	text-shadow: #4682B4 0.2px 0.2px, #4682B4 -0.2px 0.2px, #4682B4 -0.2px -0.2px, #4682B4 0.2px -0.2px;
+	}
+
+#cadre2:before {					/*Style Before Cadre Transparent Nous Soutenir*/
+	content: '';
+	background:#E5C49B;
+	opacity:0.7;
+	position: absolute;
+	top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+	}
+
+#cadre3 {							/*Style Cadre Noir & Blanc L'Equipe*/
+	border:4px black solid;
+	margin-left:5px;
+	line-height: 10px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	box-shadow: 5px 5px 8px black;
+	color: black;
+	position: relative;
+	text-align: center;
+	padding-left: 150px;
+	height: 520px;
+	margin-bottom:5px;
+	margin-top: 15px;
+	}
+
+#cadre3:before {					/*Style Before Cadre Noir & Blanc L'Equipe*/
+	content: '';
+    background: url('http://s1.dmcdn.net/WXypp.jpg') fixed 0 0;
+    background-size: 1600px;
+    -webkit-filter: grayscale(90%) blur(5px)
+           -moz-filter: grayscale blur;
+            -ms-filter: grayscale blur;
+             -o-filter: grayscale blur;
+                filter: grayscale(90%) blur(5px) ;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+    text-align: center;
+	}
+
+.lequipe {							/*Style	titre L'Equipe*/
+	text-align: center;
+	}
+
+#liste1 {							/*Style liste puces 1*/
+	font-family: 'Raleway', sans-serif;
+	padding: 10px;
+	margin:15px;
+	font-size: 20px;
+	margin-right: 150px;
+	text-align: justify;
+	}
+
+#liste2 {							/*Style Texte L'Equipe*/
+	margin:15px;
+	margin-right: 150px;
+	}
+
+.Agathe {							/*Style Agathe Photo+Texte*/
+	float: left;
+	width: 50%;
+	text-align: center;
+	}
+
+.David {							/*Style David Photo+Texte*/
+	float: right;
+	width: 50%;
+	text-align: center;
+	}
+
+.Agathetexte {						/*Style Agathe Texte Only*/
+	margin-left: 82px;
+	line-height:15px;
+	}
+
+.Davidtexte {						/*Style David Texte Only*/
+	margin-left: 82px;
+	line-height: 15px;
+	}
+
+.footer {							/*Style Footer */
+	font-size: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+	margin-top: 100px;
+	position: relative;
+	border:2px grey solid;
+	}
+
+.footer:before {					/*Style Footer before*/
+	content: '';
+	background:black;
+	opacity:0.8;
+	position: absolute;
+	top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+	}
+
+.pagecontact a{						/*Style Liens Page Contact*/
+	color:black;
+	}
+
+.Formulaire {						/*Style Section Formulaire de Contact*/
+	border:2px black solid;
+	background-color: #649AC0;
+	width: 80%;
+	text-align: center;
+	margin-left: 160px;
+	color:black;
+	margin-bottom: 40px;
+	}
+
+.réseaux {							/*Style Section Réseaux Sociaux Contact*/
+	border:2px white solid;
+	width:80%;
+	text-align:center;
+	margin-left: 160px;
+	margin-bottom: 40px;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 145px;
+	}
+
+.réseaux:before {					/*Style Before Section Réseaux Sociaux Contact*/
+	content: '';
+	background: url('http://s1.dmcdn.net/WXypp.jpg') fixed 0 0;
+	background-size: 1600px;
+	-webkit-filter: invert drop-shadow(8px 8px 10px steelblue);
+    -moz-filter: invert drop-shadow;
+    -ms-filter: invert drop-shadow;
+    -o-filter: invert drop-shadow;
+     filter: invert(100%) drop-shadow(8px 8px 10px steelblue) ;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;    
+	z-index: -1;
+	text-align: center;
+	}
+
+.icones {							/*Style des icones logo réseaux sociaux*/
+	word-spacing: 35px;
+	}
+
+.map {								/*Style de la Section Map*/
+	border:2px black solid;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	position: relative;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	}
+
+.map:before {						/*Style Before Section Map*/
+	content: '';
+	background: url('http://s1.dmcdn.net/WXypp.jpg') fixed 0 0;
+	background-size: 1600px;
+	-webkit-filter: contrast;
+	    -moz-filter: contrast;
+	    -ms-filter: contrast;
+	    -o-filter: contrast;
+	     filter: contrast(175%);
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;    
+	z-index: -1;
+	text-align: center;
+	}
+
+.mapimage {							/*Style de la map seule*/
+	border:4px black solid;
+	margin-left: 60px;
+	margin-right: 96px;
+	padding-top: 1px;
+	height: 459.5px;
+	}
+
+.Dons {								/*Style Wufoo dons*/
+	margin-top:80px; 
+	margin-left: 270px;
+	margin-right: 270px;
+	padding-left: 120px;
+	border:2px black solid;
+	font-family: 'Roboto', sans-serif;
+	background: steelblue;
+	}
+
+/*Liste de Polices*/
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Merienda One', sans-serif;
